@@ -1,2 +1,2 @@
 # linux-sh
-To visit [this page](gam2046.github.io/linux-sh/) for detail.
+To visit [this page](http://gam2046.github.io/linux-sh/) for detail.
