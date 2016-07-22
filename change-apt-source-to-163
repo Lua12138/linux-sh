@@ -1,6 +1,0 @@
-cp /etc/apt/sources.list /etc/apt/sources.list.backup
-rm /etc/apt/sources.list
-cd /etc/apt/
-wget http://mirrors.163.com/.help/sources.list.trusty
-mv sources.list.trusty sources.list
-apt-get update
