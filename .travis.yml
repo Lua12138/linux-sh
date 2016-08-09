@@ -6,8 +6,8 @@ os:
 before_install:
  - chmod +x gradlew
 install:
- ./gradlew assemble
- ./gradlew check --stacktrace
+ - ./gradlew assemble
+ - ./gradlew check --stacktrace
 notifications:
  slack:
   on_success: change
