@@ -1,4 +1,5 @@
 language: java
+sudo: required
 jdk:
   - oraclejdk8
 os:
@@ -6,6 +7,8 @@ os:
 before_install:
  - chmod +x gradlew
 install:
+ - sudo apt-get install unzip -y
+script:
  - ./gradlew assemble
  - ./gradlew check --info
 notifications:
