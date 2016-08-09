@@ -5,3 +5,13 @@ os:
   - linux
 before_install:
  - chmod +x gradlew
+install:
+ ./gradlew assemble
+ ./gradlew check --stacktrace
+notifications:
+ slack:
+  on_success: change
+  on_failure: always
+ email:
+  - gam2046@gmail.com
+  - gam2046@qq.com
